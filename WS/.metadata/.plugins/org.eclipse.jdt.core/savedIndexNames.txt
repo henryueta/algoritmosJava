@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+E:\Algoritmos Java\WS\.metadata\.plugins\org.eclipse.jdt.core
-562504340.index

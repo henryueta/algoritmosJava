@@ -1,7 +1,0 @@
-lipse.ui.ide.resourcePath" optional="false"/>
-  </commands>
-  <commands xmi:id="_Yc3tZP6dEe6HyuoqbP23tQ" elementId="org.eclipse.oomph.setup.editor.openLog" commandName="Open Setup Log" category="_Yc4U5P6dEe6HyuoqbP23tQ"/>
-  <commands xmi:id="_Yc3tZf6dEe6HyuoqbP23tQ" elementId="org.eclipse.debug.ui.commands.SkipAllBreakpoints" commandName="Skip All Breakpoints" description="Sets whether or not any breakpoint should suspend execution" category="_Yc4U8_6dEe6HyuoqbP23tQ"/>
-  <commands xmi:id="_Yc3tZv6dEe6HyuoqbP23tQ" elementId="org.eclipse.eclemma.ui.selectRootElements" commandName="Select Root Elements" category="_Yc4U6P6dEe6HyuoqbP23tQ">
-    <parameters xmi:id="_Yc3tZ_6dEe6HyuoqbP23tQ" elementId="type" name="type" optional="false"/>
-  </commands>
