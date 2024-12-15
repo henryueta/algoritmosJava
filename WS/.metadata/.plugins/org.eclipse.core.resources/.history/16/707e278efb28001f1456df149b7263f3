@@ -1,0 +1,36 @@
+package listaL;
+
+import java.util.Scanner;
+
+public class Loteria {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int numeros [] [] = new int [5] [6];
+		int linha, coluna;
+		int teste [] [] = new int [5] [6];
+		String nums = "";
+		
+		
+		for(linha = 0; linha <= 4; linha++ ) {
+			System.out.println((linha + 1) + "º dezena da aposta\n");
+			for(coluna = 0; coluna <= 5; coluna++) {
+				System.out.println("Digite o" + (coluna + 1)  + " º número para aposta:");
+				numeros [linha] [coluna] = sc.nextInt();
+				
+				nums = nums + numeros [linha] [coluna] + " - " ;
+			} 
+			numeros = teste;
+			
+			if(numeros == teste) {
+				System.out.println("Impossível de continuar");
+				break;
+			}
+			
+			nums = nums + "\n";
+		}
+		
+		System.out.println(nums);
+	}
+
+}

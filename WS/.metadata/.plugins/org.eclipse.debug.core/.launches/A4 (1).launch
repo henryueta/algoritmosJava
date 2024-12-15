@@ -1,0 +1,5 @@
+in run mode" category="_4FBRtf5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKdHv5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.window.closeAllPerspectives" commandName="Close All Perspectives" description="Close all open perspectives" category="_4FBRr_5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKdH_5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.externalTools.commands.OpenExternalToolsConfigurations" commandName="External Tools..." description="Open external tools launch configuration dialog" category="_4FBRtf5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKdIP5rEe6HdK-AJXmh3w" elementId="org.eclipse.debug.ui.commands.TerminateAll" commandName="Terminate/Disconnect All" description="Terminate/Disconnect All" category="_4FBRtf5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id=

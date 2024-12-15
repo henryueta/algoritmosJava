@@ -1,0 +1,20 @@
+opDown" commandName="Quick Switch Editor" description="Open the editor drop down list" category="_4FBRr_5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcu_5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.edit.text.goto.line" commandName="Go to Line" description="Go to a specified line of text" category="_4FBRqP5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcvP5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.editors.quickdiff.revert" commandName="Revert Lines" description="Revert the current selection, block or deleted lines" category="_4FBRp_5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcvf5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.edit.text.deleteNextWord" commandName="Delete Next Word" description="Delete the next word" category="_4FBRp_5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcvv5rEe6HdK-AJXmh3w" elementId="org.eclipse.jdt.debug.ui.javaAppletShortcut.debug" commandName="Debug Java Applet" description="Debug Java Applet" category="_4FBRtf5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcv_5rEe6HdK-AJXmh3w" elementId="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences" commandName="Toggle Mark Occurrences" description="Toggles mark occurrences in Java editors" category="_4FBRvP5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcwP5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.edit.text.select.lineUp" commandName="Select Line Up" description="Extend the selection to the previous line of text" category="_4FBRp_5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcwf5rEe6HdK-AJXmh3w" elementId="org.eclipse.egit.ui.SkipRebase" commandName="Skip commit and continue" category="_4FBRuP5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcwv5rEe6HdK-AJXmh3w" elementId="org.eclipse.jdt.ui.edit.text.java.replace.invocations" commandName="Replace Invocations" description="Replace invocations of the selected method" category="_4FBRsP5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcw_5rEe6HdK-AJXmh3w" elementId="org.eclipse.jdt.ui.edit.text.java.search.declarations.in.hierarchy" commandName="Declaration in Hierarchy" description="Search for declarations of the selected element in its hierarchy" category="_4FBRtP5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcxP5rEe6HdK-AJXmh3w" elementId="org.eclipse.egit.ui.history.SetQuickdiffBaseline" commandName="Set quickdiff baseline" category="_4FBRvv5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcxf5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.edit.undo" commandName="Undo" description="Undo the last operation" category="_4FBRov5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcxv5rEe6HdK-AJXmh3w" elementId="org.eclipse.egit.ui.team.submodule.add" commandName="Add Submodule" category="_4FBRuP5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcx_5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.edit.text.cut.line.to.end" commandName="Cut to End of Line" description="Cut to the end of a line of text" category="_4FBRp_5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcyP5rEe6HdK-AJXmh3w" elementId="org.eclipse.jdt.ui.correction.convertAnonymousToLocal.assist" commandName="Quick Assist - Convert anonymous to local class" description="Invokes quick assist and selects 'Convert anonymous to local class'" category="_4FBRvP5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcyf5rEe6HdK-AJXmh3w" elementId="org.eclipse.compare.copyLeftToRight" commandName="Copy from Left to Right" description="Copy Current Change from Left to Right" category="_4FBRrf5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcyv5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.file.newQuickMenu" commandName="New menu" description="Open the New menu" category="_4FBRq_5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcy_5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.project.openProject" commandName="Open Project" description="Open a project" category="_4FBRsv5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKczP5rEe6HdK-AJXmh3w" elementId="org.eclipse.debug.ui.actions.WatchCommand" commandName="Watch" description="Create a watch expression from the current selection and add it to the Expressions view" category="_4FBRvv5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKczf5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.file.openWorkspace"

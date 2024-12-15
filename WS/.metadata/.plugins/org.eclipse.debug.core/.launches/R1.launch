@@ -1,0 +1,5 @@
+rg.eclipse.ui.edit.text.join.lines" commandName="Join Lines" description="Join lines of text" category="_4FBRp_5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcV_5rEe6HdK-AJXmh3w" elementId="org.eclipse.help.ui.indexcommand" commandName="Index" description="Show Keyword Index" category="_4FBRsf5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcWP5rEe6HdK-AJXmh3w" elementId="org.eclipse.jdt.ui.edit.text.java.open.editor" commandName="Open Declaration" description="Open an editor on the selected element" category="_4FBRqP5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4FKcWf5rEe6HdK-AJXmh3w" elementId="org.eclipse.ui.window.showContextMenu" commandName="Show Context Menu" description="Show the context menu" category="_4FBRr_5rEe6HdK-AJXmh3w"/>
+  <commands xmi:id="_4F

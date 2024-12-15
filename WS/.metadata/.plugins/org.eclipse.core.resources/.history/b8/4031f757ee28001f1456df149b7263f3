@@ -1,0 +1,66 @@
+package listaL;
+
+
+import java.util.Iterator;
+import java.util.Random;
+import java.util.Scanner;
+
+public class L0 {
+
+	public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+	Random sorteador = new Random();
+    int lista[] = new int[6];
+    int exemplo[] = new int[6];
+    int num=0;
+    int aposta1[] = new int[6];
+    int aposta2[] = new int[6];
+    int aposta3[] = new int[6];
+    int aposta4[] = new int[6];
+    int aposta5[] = new int[6];
+
+	exemplo[0]=1;
+	exemplo[1]=2;
+	exemplo[2]=3;
+	exemplo[3]=4;
+	exemplo[4]=5;
+	exemplo[5]=6;
+	
+	
+	
+	
+	
+	
+    
+    for (int i = 0; i < aposta1.length; i++) {
+    	num = i +1;
+		System.out.println("Aposte o "+num+ " número: ");
+		aposta1[i]= entrada.nextInt();
+	}
+    
+    
+    for(int rep = 0; rep < aposta1.length; rep++) {
+    	for(int rep2 = 0; rep2 <= aposta1.length; rep2++) {
+    		if(exemplo[rep] == aposta1[rep2]) {
+    			System.out.println("Acerto");
+    		} else {
+    			System.out.println("Errado");
+    		}
+    	}
+    }
+    
+    
+    
+	//for(int i = 0;i < lista.length;i++){
+	  // lista[i]= sorteador.nextInt(1, 61);
+	   //System.out.println(lista[i]);
+	//}
+	
+	
+	
+	
+	}
+	
+	
+
+}

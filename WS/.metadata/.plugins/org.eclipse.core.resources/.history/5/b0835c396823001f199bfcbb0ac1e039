@@ -1,0 +1,20 @@
+package listaL;
+
+import java.util.Scanner;
+
+public class L0 {
+
+	public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+	float lista[] = new float[10];
+	
+	
+	for(int i = 0; lista.lengh;i++){
+	
+	System.out.println("Digite o valor do primeiro número: ");
+	lista[0] = entrada.nextFloat();
+	
+	}
+	}
+
+}

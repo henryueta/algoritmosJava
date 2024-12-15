@@ -1,0 +1,145 @@
+package onibus;
+
+import java.util.Scanner;
+
+public class ON1 {
+	
+	public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    String mostrar="",nome,sexo,mostrar2="";
+    int cod=0,idade;
+    int registro [] = new int[44];
+    int guarda [] = new int[44];
+    int numeros [] [] = new int [11] [4];
+    int linha, coluna;
+    int teste2=0;
+	int teste3=0;
+	int teste4=0;
+	int escolha = 0;
+    int i = 0;
+    int teste=0;
+    int a=0,b=0,c=0;
+    boolean pergunta=false,repetiu=false;
+    
+    
+    System.out.println("SISTEMA PARA PASSAGENS");
+    
+    for(int j=0; j<44;j++) {
+    teste = teste+1;
+    registro[j] = teste;
+    }
+    for(linha = 0; linha <= 10; linha++ ) {
+		for(coluna = 0; coluna <= 3; coluna++) {
+			teste = teste+1;
+			teste2 = teste2+1;
+			teste3 = teste3+1;
+			
+			  //Random ger = new Random();ger.nextInt(22);
+		   numeros [linha] [0] = teste2;
+		   numeros [linha] [1] = teste2;
+		   numeros [linha] [2] = teste2+1;
+		   numeros [linha] [3] = teste2-1;
+		   
+		  
+		  
+		   mostrar = mostrar + numeros [linha] [coluna] + " - " ;
+		   
+		} 
+		
+		mostrar = mostrar + "\n";
+	}
+    
+   
+    
+    while(cod !=3) {
+	System.out.println("\n1-VENDA\n2-RESUMO\n3-FINALIZAR");
+	cod = entrada.nextInt();
+	
+	
+	
+    switch (cod){
+	case 1:
+			
+		
+		
+	
+	
+    System.out.println("Digite seu nome: ");
+    nome = entrada.next();
+    
+    System.out.println("Digite seu sexo: ");
+    sexo = entrada.next();
+    
+    System.out.println("Digite sua idade: ");
+    idade = entrada.nextInt();
+    
+    
+    
+	System.out.println(mostrar+"\nEscolha seu lugar: ");
+	escolha = entrada.nextInt();
+	guarda[i] = escolha;
+	
+   for(i=0;i<registro.length;i++) {
+    	b=a-1;
+    	
+    	if(escolha == registro [i]) {
+    		pergunta = false;
+	    	System.out.println("Lugar Escolhido");
+	    	
+	    }
+    	if(escolha != registro[i]) {
+    		a++;
+    		if(b==44) {
+            pergunta = true;
+    		}
+    	}
+    	
+    	if(guarda[i] == escolha) {
+    		c++;
+    	System.out.println("IGUAL");
+    	}
+    	if(guarda[i] != escolha) {
+    	System.out.println("DIFERENTE");
+    	}
+    	mostrar2= guarda[i] + "-";
+    		
+    	}
+    	
+   mostrar = mostrar +  "\n";
+	System.out.println(mostrar);
+   
+    
+   if(pergunta == true) {
+	   System.out.println("Este lugar não existe!Escolha novamente: ");
+	   escolha = entrada.nextInt();
+	   pergunta = false;
+   }
+   
+   if(repetiu == true) {
+	   System.out.println("Este lugar já está ocupado!Escolha Novamente: ");
+	   System.out.println(guarda[0]+guarda[1]+guarda[2]+guarda[3]);
+	   escolha = entrada.nextInt();
+	   repetiu = false;
+   }
+    
+    break;
+    
+    
+	case 2:
+	System.out.println("");
+    break;
+	case 3:
+		System.out.println("SISTEMA FINALIZADO");
+	    break;
+    
+}
+	
+	
+	
+	
+    }
+
+		
+	}
+
+}

@@ -1,0 +1,68 @@
+package listaL;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Loteria {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int numeros [] [] = new int [11] [4];
+		int linha, coluna;
+		int teste [] [] = new int [5] [6];
+		int teste2=0;
+		int teste3=0;
+		int teste4=0;
+		String nums = "";
+		int lugares [] = new int [44];
+        int escolha;
+	    int i = 0;
+		
+		for(linha = 0; linha <= 10; linha++ ) {
+			for(coluna = 0; coluna <= 3; coluna++) {
+				teste2 = teste2+1;
+				teste3 = teste3+1;
+				
+				  //Random ger = new Random();ger.nextInt(22);
+			   numeros [linha] [0] = teste2;
+			   numeros [linha] [1] = teste2;
+			   numeros [linha] [2] = teste2;
+			   numeros [linha] [3] = teste2;
+			   
+			  
+			  
+				nums = nums + numeros [linha] [coluna] + " - " ;
+				
+			} 
+			
+			nums = nums + "\n";
+		
+		}
+		
+		
+		
+		
+		
+		System.out.println(nums);
+		
+		while( i < lugares.length) {
+			for(int j=1; j < lugares.length;j++) {
+		i++;
+		System.out.println("Escolha um lugar"+i);
+		escolha = sc.nextInt();
+		lugares[i] = escolha;
+		System.out.println(lugares[1]);
+		System.out.println(j);
+		if(lugares[i] == lugares[j]) {
+			
+		}
+		
+		}
+		
+		}
+		
+
+		
+	}
+
+}
